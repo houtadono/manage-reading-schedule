@@ -1,8 +1,9 @@
 import streamlit as st
 from manga_db import MangaDB
 
-firebase_key_path = st.secrets["textkey"]
-manga_db = MangaDB(firebase_key_path)
+import json
+key_dict = json.loads(st.secrets["textkey"])
+manga_db = MangaDB(key_dict)
 
 st.header("Manage Manga Reading")
 

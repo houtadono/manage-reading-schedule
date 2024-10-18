@@ -2,10 +2,10 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 
 class MangaDB:
-    def __init__(self, firebase_key_path):
+    def __init__(self,key_dict=None):
         # Khởi tạo kết nối với Firestore
         if not firebase_admin._apps:
-            cred = credentials.Certificate(firebase_key_path)
+            cred = credentials.Certificate(key_dict)
             firebase_admin.initialize_app(cred)
         self.db = firestore.client()
         self.manga_ref = self.db.collection('mangas')
