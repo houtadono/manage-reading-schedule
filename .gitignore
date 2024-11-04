@@ -1,4 +1,5 @@
 .streamlit/secrets.toml
+.idea/
 firestore-key.json
 # Byte-compiled / optimized / DLL files
 __pycache__/

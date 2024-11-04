@@ -1,0 +1,24 @@
+{
+    "English": {
+        "lang_label": "Language",
+        "welcome": "Welcome",
+        "page": {
+            "home": "Home",
+            "read": "Reading",
+            "setting": "Setting"
+        },
+        "greeting": "Hello, how can we assist you?",
+        "submit": "Submit"
+    },
+    "Tiếng Việt": {
+        "lang_label": "Ngôn ngữ",
+        "welcome": "Chào mừng",
+        "page": {
+            "home": "Trang chủ",
+            "read": "Trang đọc",
+            "setting": "Cài đặt"
+        },
+        "greeting": "Xin chào, chúng tôi có thể hỗ trợ bạn thế nào?",
+        "submit": "Gửi"
+    }
+}
